@@ -16,6 +16,10 @@ public class Member {
     private String email;
     private String password;
 
+    public String getFullName(){
+        return firstName + " " + lastName;
+    }
+
 
 
 
